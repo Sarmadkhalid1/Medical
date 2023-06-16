@@ -6,7 +6,6 @@ import MainStackNavigator from './src/screens/StackNavigator';
 LogBox.ignoreLogs([
   "[react-native-gesture-handler] Seems like you're using an old API with gesture components, check out new Gestures system!",
 ]);
-console.log('hellow');
 export default function App() {
   console.log(App);
   return (
